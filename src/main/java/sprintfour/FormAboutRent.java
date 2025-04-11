@@ -11,8 +11,9 @@ import static org.junit.Assert.assertTrue;
 
 public class FormAboutRent {
     private final WebDriver driver;
-
+// поле Дата
     private final By fieldDate = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div[1]/div/input");
+    // календарь
     private final By deskDate = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div[2]/div[2]/div/div/div[2]/div[2]/div[3]/div[4]");
     private final By fieldRent = By.className("Dropdown-placeholder");
     private final By listRent = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[2]/div[2]/div[1]");

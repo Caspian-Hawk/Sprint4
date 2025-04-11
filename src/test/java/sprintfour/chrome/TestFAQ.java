@@ -26,7 +26,7 @@ public class TestFAQ {
         // открываем страницу
         mainPage.openMainPage();
 
-        // нажимаем куки
+        // нажимаем куки или не нажимаем
         mainPage.clickCookie();
 
         // ищем FAQ

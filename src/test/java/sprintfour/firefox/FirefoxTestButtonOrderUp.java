@@ -51,7 +51,6 @@ public class FirefoxTestButtonOrderUp { // флоу верхней кнопки 
         var formAboutRent = new FormAboutRent(driver);
 
         // открываем страницу
-        //MainPage.open();
         mainPage.openMainPage();
         // принимаем куки
         mainPage.clickCookie();

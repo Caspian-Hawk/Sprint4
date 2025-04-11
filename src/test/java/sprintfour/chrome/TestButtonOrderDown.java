@@ -51,7 +51,6 @@ public class TestButtonOrderDown { // флоу нижней кнопки "Зак
         var formAboutRent = new FormAboutRent(driver);
 
         // открываем страницу
-        //MainPage.open();
         mainPage.openMainPage();
         // принимаем куки
         mainPage.clickCookie();

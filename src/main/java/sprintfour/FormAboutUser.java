@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class FormAboutUser {
     private final WebDriver driver;
-
+// поле Имя
     private final By fieldName = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/input");
     private final By fieldSurname = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[2]/input");
     private final By fieldAddress = By.xpath("//*[@id=\"root\"]/div/div[2]/div[2]/div[3]/input");

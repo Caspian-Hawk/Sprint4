@@ -39,7 +39,7 @@ public class MainPage {
 
     public void scrollAndClickArrow() {
         WebElement firstQuestion = driver.findElement(By.xpath("//*[@id=\"accordion__heading-0\"]"));
-        // скролим вниз, ищем стрелку FAQ
+        // скролим вниз, ищем стрелку FAQ через раз работает
         ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", firstQuestion);
         // кликаем
         firstQuestion.click();

@@ -52,7 +52,7 @@ public class TestButtonOrderUp { // флоу верхней кнопки "Зак
 
         // открываем страницу
         mainPage.openMainPage();
-        // принимаем куки
+        // принимаем куки или можно без этого
         mainPage.clickCookie();
 
         // кликаем по верхней кнопке Заказать
