@@ -26,7 +26,7 @@ public class FirefoxTestFAQ {
         // открываем страницу
         mainPage.openMainPage();
 
-        // принимаем куки
+        // принимаем куки или не принимаем
         mainPage.clickCookie();
 
         // ищем FAQ
